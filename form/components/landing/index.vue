@@ -3,7 +3,7 @@
      <div class="landing-section-description-wrapper">
        <h1 class="landing-section-title">{{ title }}</h1>
        <p class="landing-section-description">{{ description }}</p>
-       <div class="landing-section-button-wrapper">
+       <div class="landing-section-button-wrapper" v-if="buttonText">
          <input type="button" :value="buttonText" buttonLink="/" />
        </div>
      </div>
