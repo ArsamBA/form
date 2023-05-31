@@ -18,6 +18,14 @@ const formData = ref({
   lastName: 'Last Name',
   birthDay: 'Birthday',
   number: 'Phone Number',
+  email: 'Email',
+  userName : 'Username',
+  password: 'Password',
+  reEnterPassword: 'Re-Enter Password',
+  country: 'Country',
+  city: 'City',
+  address: 'Address',
+  zipCode: 'ZIP Code'
 })
 </script>
 
